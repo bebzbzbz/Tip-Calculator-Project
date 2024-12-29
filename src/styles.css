@@ -2,10 +2,6 @@
     font-family: "Space Mono";
     src: url(./fonts/SpaceMono-Regular.ttf);
 }
-@font-face {
-    font-family: "Poppins";
-    src: url(./fonts/Poppins-Regular.ttf);
-}
 
 :root {
     --bg: #ffffff;
