@@ -121,10 +121,17 @@ h1 {
     max-height: 100%;
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &.hide {
         max-height: 0;
     }
+}
+
+form {
+    width: 100%;
 }
 
 fieldset {
