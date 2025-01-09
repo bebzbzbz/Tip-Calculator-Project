@@ -16,7 +16,7 @@
 
 <p>I created this project as a participant of a boot camp for web development focusing on React and Typescript. It was developed on the fourth day of practicing Typescript with Visual Studio Code using HTML, CSS and Typescript.</p>
 
-<p>The goal of this project was to build our first functional project using Typescript functions. The result is a calculator with a fun interface, with functions to calculate an operation and continue calculating with the result, clear the result and delete the last number.</p>
+<p>The goal of this project was to build our first functional project using Typescript functions. This project means to calculate a fair tip depending on the quality of service, total bill and amount of people sharing it.</p>
 
 <img src="./img/tips_screen2.png" alt="Project Screenshot">
 
@@ -28,9 +28,9 @@
         <li>Amount of people sharing the bill</li>
         <li>Quality of service
           <ul>
-            <li>Great service: factor </li>
-            <li>Alright service: factor </li>
-            <li>Bad service: factor</li>
+            <li>Great service: factor 2% </li>
+            <li>Alright service: factor 10% </li>
+            <li>Bad service: factor 20%</li>
           </ul>
         </li>
       </ul>
@@ -42,11 +42,11 @@
         <li><b>Price per person:</b> total plus tips / amount of people</li>
       </ul>
     </li>
-    <li><b>Output:</b>
+    <li><b>Dynamic design</b>
       <ul>
-        <li>Dynamic slide in animation</li>
-        <li><b>Total plus tips:</b> total sum + tips</li>
-        <li><b>Price per person:</b> total plus tips / amount of people</li>
+        <li>Slide in animation to result</li>
+        <li>New calculation option</li>
+        <li>Animated background</li>
       </ul>
     </li>
 </ul>
@@ -67,5 +67,4 @@
 
 ## Design
 
-The playful, colourful design for this web calculator was inspired by both the flat, angular design of <a href="https://dribbble.com/shots/12909522--dailyui-Mortgage-Calculator" title="Sebastian Vigil - Mortgage Calculator">Sebastian Vigil's "Mortgage Calculator"</a>, as well as its vibrant blue, and the layout and colour assortment of <a href="https://dribbble.com/shots/15359416-MechaCalc-Calculator-App" title="Afrills - MechaCalc - Calculator App">Afrills' "MechaCalc - Calculator App"</a>. This combination makes for a modern look while 
-ensuring a cohesive and visually appealing user experience.
+The design featuring the vibrant coloured and circular gradients is inspired by <a href="https://de.pinterest.com/pin/682999099774996286/" title="Sebastian Vigil - Mortgage Calculator">Polina Muromova's "Bricks"</a>. 
