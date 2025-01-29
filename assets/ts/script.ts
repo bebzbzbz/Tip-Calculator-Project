@@ -8,21 +8,27 @@ btn?.addEventListener("click", tipsCalc)
 function tipsCalc() {
     event?.preventDefault();
 
-    // Result calculation
-
     const total = Number((document.querySelector("#total") as HTMLInputElement).value);
     const people = Number((document.querySelector("#people") as HTMLInputElement).value);
     const service = Number((document.querySelector("#service") as HTMLSelectElement).value);
-    
-    result.innerHTML = `<p>Das <b>Trinkgeld</b> beträgt: ${(total * service).toFixed(2)}€</p> 
-    <p>Die <b>Gesamtsumme</b> ist: ${(total + (total * service)).toFixed(2)}€</p>
-    <p>Der Preis <b>pro Person</b> liegt bei: ${((total + (total * service))/people).toFixed(2)}€</p>`;
 
-    // Slides to result
+    if(total != 0 && people != 0 && service != 0) {
+        const tipsResult = Number((total * service).toFixed(2));
+        const totalPlusTips = (total + tipsResult);
+        const pricePerPerson = totalPlusTips / people;
+        
+        result.innerHTML = `<p>Das <b>Trinkgeld</b> beträgt: ${tipsResult}€</p> 
+        <p>Die <b>Gesamtsumme</b> ist: ${totalPlusTips}€</p>
+        <p>Der Preis <b>pro Person</b> liegt bei: ${pricePerPerson}€</p>`;
 
-    formDiv.classList.toggle("hide");
+        // Slides to result
 
-    resultDiv.classList.toggle("show");
+        formDiv.classList.toggle("hide");
+
+        resultDiv.classList.toggle("show");
+    } else {
+        alert("Please fill out all fields")
+    }
 }
 
 const backBtn = document.querySelector("#back") as HTMLAnchorElement;
