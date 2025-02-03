@@ -1,7 +1,7 @@
 # Project Tips Calculator
 
 <div style="display: flex; justify-content: center;">
-  <img src="./assets/img/tips_screen1.png" alt="Project Screenshot">
+  <img src="./src/assets/img/tips_screen1.png" alt="Project Screenshot">
 </div>
 <br/>
 
@@ -18,7 +18,7 @@
 
 <p>The goal of this project was to build our first functional project using Typescript functions. This project means to calculate a fair tip depending on the quality of service, total bill and amount of people sharing it.</p>
 
-<img src="./assets/img/tips_screen2.png" alt="Project Screenshot">
+<img src="./src/assets/img/tips_screen2.png" alt="Project Screenshot">
 
 ## Features
 <ul>
